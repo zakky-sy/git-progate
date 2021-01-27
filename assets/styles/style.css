@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+@media only screen and (max-width: 600px) {
+  nav li {
+    font-size: medium;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url('../image/header-bg3.jpg');
+  background-size: cover;
+  color: #f0f5f9;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+  opacity: 0.9;
+  text-shadow: 1px 1px 10px black;
+  line-height: 1em;
+}
+
+.jumbotron span {
+  font-size: 0.6em;
+}
+
+nav {
+  background-color: #1e2022;
+  opacity: 0.9;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c9d6de;
+}
+
+nav a:hover {
+  color: #f0f5f9;
+}
+
+.about {
+  padding: 50px 100px;
+  background-color: #f0f5f9;
+  line-height: 2em;
+}
+
+.about p {
+  text-align: center;
+}
+
+span {
+  font-weight: 600;
+}
+
+.container {
+  padding: 50px 30px;
+  background-image: url('../image/content-bg3.jpg');
+  background-size: cover;
+  text-align: center;
+  color: #f0f5f9;
+  overflow: auto;
+}
+
+.aboutmore {
+  float: left;
+  width: 60%;
+}
+
+.aboutmore h3,
+h4,
+p {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.aboutmore h4 {
+  padding-bottom: 10px;
+}
+
+.verticalLine {
+  height: 50px;
+  width: 1%;
+  margin: 15px auto;
+  border-left: 3px #f0f5f9 solid;
+}
+
+.skill {
+  padding-top: 50px;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  margin-left: 50px;
+  position: relative;
+}
+
+.asideBg {
+  width: 100%;
+  height: 100%;
+  background-color: #52616a;
+  opacity: 0.4;
+  position: absolute;
+}
+
+aside img {
+  width: 120px;
+  border: 5px solid #f0f5f9;
+  ;
+  border-radius: 50%;
+  opacity: 0.9;
+  margin: 25px;
+}
+
+table {
+  margin: 0 auto;
+  line-height: 2em;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+td {
+  padding-left: 25px;
+}
+
+aside p {
+  text-align: center;
+  font-size: 1.1em;
+  font-style: oblique;
+  margin: 30px auto;
+  line-height: 1.5em;
+}
+
+footer {
+  background-color: #1e2022;
+  padding: 50px 15px;
+  color: #f0f5f9;
+  overflow: auto;
+  display: flex;
+}
+
+.leftFooter {
+  flex-basis: 50%;
+  float: left;
+}
+
+.leftFooter p {
+  margin: a;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.contactIcon {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#copyright {
+  margin-top: 170px;
+  font-size: 0.8em;
+}
+
+#rightFooter {
+  flex-basis: 50%;
+  float: left;
+  padding-left: 100px;
+}
+
+#rightFooter p {
+  margin: 0;
+}
+
+input,
+textarea {
+  width: 400px;
+  min-width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.contactSubmit {
+  background-color: #f0f5f9;
+  color: #1e2022;
+  opacity: 0.8;
+}
+
+.contactSubmit:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  font-weight: 600;
+}
